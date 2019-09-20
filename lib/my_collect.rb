@@ -2,7 +2,7 @@ def my_collect(collection)
   counter = 0 
   empty_array = []
   while counter < collection.length
-    yield collection.upcase[counter]
+    yield collection[counter]
     counter += 1
   end
   collection
